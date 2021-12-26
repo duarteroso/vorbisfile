@@ -2,6 +2,7 @@ module vvorbisfile
 
 #flag linux -lvorbisfile
 #flag linux -I/usr/include/vorbis
+
 #include "vorbisfile.h"
 
 const (
@@ -25,7 +26,7 @@ fn C.ov_test_open(vf &C.OggVorbis_File) int
 
 fn C.ov_bitrate(vf &C.OggVorbis_File, i int) i64
 fn C.ov_bitrate_instant(vf &C.OggVorbis_File) i64
-fn C.ov_stream(vf &C.OggVorbis_File) i64
+fn C.ov_streams(vf &C.OggVorbis_File) i64
 fn C.ov_seekable(vf &C.OggVorbis_File) i64
 fn C.ov_serialnumber(vf &C.OggVorbis_File, i int) i64
 
