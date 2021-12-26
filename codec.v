@@ -1,7 +1,11 @@
 module vvorbisfile
 
 [typedef]
-struct C.vorbis_info {}
+struct C.vorbis_info {
+	channels        int
+	rate            i64
+	bitrate_nominal i64
+}
 
 pub const (
 	ov_false      = -1
