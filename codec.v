@@ -1,8 +1,5 @@
 module vvorbisfile
 
-#flag linux -I@VROOT/include
-#include "vorbis_info_helpers.h"
-
 [typedef]
 struct C.vorbis_info {}
 
@@ -22,6 +19,3 @@ pub const (
 	ov_ebadlink   = -137
 	ov_enoseek    = -138
 )
-
-fn C.get_vorbis_info_channels(vi &C.vorbis_info) int
-fn C.get_vorbis_info_rate(vi &C.vorbis_info) i64
