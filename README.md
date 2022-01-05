@@ -1,2 +1,2 @@
-# vvorbisfile
+# vorbisfile
 Vorbisfile V bindings

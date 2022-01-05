@@ -1,4 +1,4 @@
-module vvorbisfile
+module vorbisfile
 
 [typedef]
 struct C.vorbis_info {

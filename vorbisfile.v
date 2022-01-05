@@ -1,4 +1,4 @@
-module vvorbisfile
+module vorbisfile
 
 #flag linux -lvorbisfile
 #flag linux -I/usr/include/vorbis

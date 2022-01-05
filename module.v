@@ -1,4 +1,4 @@
-module vvorbisfile
+module vorbisfile
 
 import v.vmod
 
