@@ -5,7 +5,7 @@ module vorbisfile
 
 #include "vorbisfile.h"
 
-const (
+pub const (
 	not_open   = 0
 	part_open  = 1
 	opened     = 2
